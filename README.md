@@ -113,7 +113,7 @@ PCA was selected during development as the main detector because it provided the
 
 The final CSV artifacts used to construct the thesis result tables are included in `results/`.
 
-The original Google Colab notebook will be added to `notebooks/` after export from the execution environment. This is intentional: the repository should contain the exact notebook used to produce the reported experiments, not a reconstructed approximation.
+The cleaned Google Colab notebook used for the TFM is available in `notebooks/TFM_Deteccion_Anomalias_Tennessee_Eastman.ipynb`. Its code-cell order is preserved from the original execution notebook; stored outputs and execution counters were removed only to reduce repository size. Section headings and reproducibility notes were added without changing the computational instructions.
 
 The raw TEP data are intentionally excluded because they are publicly available from the cited source and are substantially larger than the source code and result artifacts.
 
