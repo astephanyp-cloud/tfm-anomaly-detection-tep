@@ -1,0 +1,22 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Raw/processed TEP datasets
+data/raw/
+data/processed/
+*.RData
+*.rdata
+*.rds
+*.parquet
+
+# Binary model artifacts are documented separately
+models/*.joblib
+models/*.keras
+models/*.h5
